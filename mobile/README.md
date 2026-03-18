@@ -1,10 +1,3 @@
----
-
-## README do mobile
-
-Crie `mobile/README.md` com este conteúdo:
-
-
 # Mobile - Zazuu Shop
 
 Aplicativo mobile desenvolvido em React Native com Expo para gerenciamento de catálogo pet.
