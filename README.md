@@ -36,8 +36,9 @@ zazuu-shop/
 └── README.md
 ```
 
-Tecnologias utilizadas
-Backend
+## Tecnologias utilizadas
+
+## Backend
 
 Node.js
 
@@ -55,7 +56,7 @@ JWT
 
 BcryptJS
 
-Mobile
+## ##Mobile
 
 React Native
 
