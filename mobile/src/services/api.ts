@@ -31,7 +31,7 @@ api.interceptors.request.use((config) => {
 api.interceptors.response.use(
   (response) => {
     if (__DEV__) {
-      console.log("✅ RESPONSE", {
+      console.log("RESPONSE", {
         url: response.config.url,
         status: response.status,
         data: response.data,
@@ -41,7 +41,7 @@ api.interceptors.response.use(
   },
   (error) => {
     if (__DEV__) {
-      console.log("❌ API ERROR", {
+      console.log("API ERROR", {
         url: error?.config?.url,
         status: error?.response?.status,
         data: error?.response?.data,
