@@ -79,9 +79,7 @@ Expo Linear Gradient
 
 React Native Toast Message
 
-Como rodar o projeto completo
-
-O projeto é dividido em duas partes e o ideal é rodar primeiro o backend e depois o mobile.
+## O projeto é dividido em duas partes e o ideal é rodar primeiro o backend e depois o mobile.
 
 ## Rodando o backend
 
