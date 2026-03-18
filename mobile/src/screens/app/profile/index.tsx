@@ -29,6 +29,7 @@ export function ProfileScreen() {
         </S.UserCard>
       </S.Container>
       <Button title="Sair do app" onPress={logout} />
+      <S.Button />
     </Page>
   );
 }

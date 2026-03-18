@@ -5,6 +5,9 @@ export const Container = styled.View`
   flex: 1;
   margin-top: 10px;
 `;
+export const Button = styled.View`
+  margin-bottom: 32px;
+`;
 
 export const HeroCard = styled.View`
   border-radius: 28px;
