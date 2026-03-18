@@ -20,12 +20,13 @@ export const Link = styled.Text`
 `;
 
 export const Content = styled.View`
-  gap: ${({ theme }) => theme.spacing.md}px;
+  gap: 12px;
   padding-bottom: ${({ theme }) => theme.spacing.xxl}px;
 `;
 
 export const Category = styled.Text`
-  color: ${({ theme }) => theme.colors.primary};
+  color: #cdd345;
+
   font-weight: 700;
 `;
 
@@ -37,7 +38,6 @@ export const Title = styled.Text`
 
 export const Description = styled.Text`
   color: ${({ theme }) => theme.colors.textMuted};
-  line-height: 22px;
 `;
 
 export const Price = styled.Text`
