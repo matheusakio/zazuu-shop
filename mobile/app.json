@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Zazuu Shop",
+    "slug": "zazuu-shop",
+    "icon": "./assets/brand/app-icon.png",
+    "splash": {
+      "image": "./assets/brand/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E7F0EC"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/adaptive-icon.png",
+        "backgroundColor": "#E7F0EC"
+      }
+    },
+    "web": {
+      "favicon": "./assets/brand/favicon.png"
+    }
+  }
+}
