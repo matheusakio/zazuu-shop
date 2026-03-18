@@ -17,7 +17,7 @@ api.interceptors.request.use((config) => {
   }
 
   if (__DEV__) {
-    console.log("➡️ REQUEST", {
+    console.log("REQUEST", {
       method: config.method,
       url: `${config.baseURL}${config.url}`,
       params: config.params,
