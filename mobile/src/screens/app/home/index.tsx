@@ -14,7 +14,14 @@ import * as S from "./styles";
 import { Page } from "../../../components/page";
 import { PageHeader } from "../../../components/page/page-header";
 
-const categories = ["Todos", "Ração", "Higiene", "Brinquedos"];
+const categories = [
+  "Todos",
+  "Ração",
+  "Higiene",
+  "Brinquedos",
+  "Acessórios",
+  "Medicamentos",
+];
 
 export function HomeScreen({ navigation }: any) {
   const user = useAuthStore((state) => state.user);
