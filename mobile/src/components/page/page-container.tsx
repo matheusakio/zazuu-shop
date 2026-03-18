@@ -14,7 +14,7 @@ export function ViewPage({ children }: PropsWithChildren) {
 export function ScrollPage({ children }: PropsWithChildren) {
   return (
     <ScrollView
-      contentContainerStyle={{ flexGrow: 1, paddingBottom: 32 }}
+      contentContainerStyle={{ flexGrow: 1, paddingBottom: 8 }}
       showsVerticalScrollIndicator={false}
       keyboardShouldPersistTaps="handled"
     >

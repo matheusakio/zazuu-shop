@@ -36,7 +36,7 @@ export function Page({
       behavior={Platform.OS === "ios" ? "padding" : undefined}
     >
       <ScreenBackground>
-        <SafeAreaView style={{ flex: 1 }}>
+        <SafeAreaView style={{ flex: 1 }} edges={["top"]}>
           <Container>
             <Content hidePadding={hidePadding}>
               {title ? (
